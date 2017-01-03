@@ -1,0 +1,3 @@
+FUNCTION_FILENAME=`function_name_to_filename "$@"`
+mkdir -p `basename ${FUNCTION_FILENAME}` 2> /dev/null
+vi $FUNCTION_FILENAME && source_bashrc
