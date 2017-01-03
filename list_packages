@@ -1,0 +1,3 @@
+mute_pushd $BD
+\ls -d * | cat
+mute_popd
