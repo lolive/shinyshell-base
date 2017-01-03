@@ -1,0 +1,4 @@
+mute_pushd $BD
+TO=' -> '
+find . -type l -not -path "./.*" -printf "%p${TO}%l\n" | search_and_replace START "^" TRAILING_RELATIVE_PATH "./" __PACKAGE ".*/" __ALIAS_NAME '[^/]*' __TO "${TO}" __FUNCTION_NAME '.*' '\2\3\1\4'
+mute_popd
