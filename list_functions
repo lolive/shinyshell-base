@@ -1,5 +1,5 @@
 PACKAGE_OR_ALL=${1:-'.*'}
 PACKAGE_OR_NOTHING=${1}
 mute_pushd $BD
-find . -type f -not -path "./.*" | \grep "^./""${PACKAGE_OR_ALL}" | str_delete "^./""${PACKAGE_OR_NOTHING}""/*"
+find . -type f -maxdepth 2 -not -path "./.*" | \grep "^./""${PACKAGE_OR_ALL}" | str_delete "^./""${PACKAGE_OR_NOTHING}""/*"
 mute_popd
