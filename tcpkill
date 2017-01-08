@@ -1,0 +1,2 @@
+name_params TCP_PORT_TO_FREE
+sudo fuser -k -TERM -n tcp $TCP_PORT_TO_FREE
