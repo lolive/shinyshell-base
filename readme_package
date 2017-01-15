@@ -2,6 +2,11 @@ name_params PACKAGE
 mute_pushd ${BD}/${PACKAGE}
 if [[ -f .README.md ]]; then
  cat .README.md
+ echo
+else
+ echo "This is package "${PACKAGE}" of Shinyshell."
+ echo "This package contains the following functions:"
+ echo
 fi
 for i in `list_functions_of_package`; do
  view_help "$i"
