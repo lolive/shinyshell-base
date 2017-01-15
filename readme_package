@@ -1,0 +1,9 @@
+name_params PACKAGE
+mute_pushd ${BD}/${PACKAGE}
+if [[ -f .README.md ]]; then
+ cat .README.md
+fi
+for i in `list_functions_of_package`; do
+ view_help "$i"
+done
+mute_popd
