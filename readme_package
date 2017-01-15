@@ -5,6 +5,7 @@ if [[ -f .README.md ]]; then
  echo
 else
  echo "This is package "${PACKAGE}" of Shinyshell."
+ echo
  echo "This package contains the following functions:"
  echo
 fi
