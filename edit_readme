@@ -1,0 +1,4 @@
+name_params PACKAGE
+local PACKAGE_DIR=${BD}/${PACKAGE}
+mkdir -p ${PACKAGE_DIR}
+vi ${PACKAGE_DIR}/.README.md

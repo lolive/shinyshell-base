@@ -1,6 +1,10 @@
+This is the "base" package of ShinyShell. 
+It contains basic functions to manage your other ShinyShell functions and packages.
 $ bd  : 
 
 $ edit_function  : 
+
+$ edit_readme PACKAGE : 
 
 $ ef  : This function edits a ShinyShell function with your $EDITOR. This function accepts: (optionnaly) the package name, plus the function name.
 
