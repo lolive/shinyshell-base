@@ -14,6 +14,8 @@ $ go_to_bd  :
 
 $ go_to_package PACKAGE : 
 
+$ html2txt  : 
+
 $ list_aliases  : 
 
 $ list_functions  : 
@@ -25,6 +27,8 @@ $ list_packages  :
 $ lsa  : 
 
 $ lsf  : 
+
+$ markdown  : 
 
 $ readme_package PACKAGE : 
 
