@@ -1,0 +1,3 @@
+Kill the process locking a given TCP port
+
+Kill the process locking the tcp port $TCP_PORT_TO_FREE.

@@ -1,3 +1,0 @@
-name_params PACKAGE
-cd ${BD}/${PACKAGE}
-ls

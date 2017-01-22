@@ -1,4 +1,0 @@
-Edit a bash function of ShinyShell.
-
-This function edits a ShinyShell function with your $EDITOR.
-This function accepts: (optionnaly) the package name, plus the function name.

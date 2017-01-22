@@ -1,0 +1,4 @@
+Go to the Shinyshell dir, or to a Shinyshell package
+
+When given no argument, cd to the Shinyshell directory.
+When given a package name as argument, cd to the Shinyshell package with the given name.

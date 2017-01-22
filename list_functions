@@ -1,15 +1,4 @@
-PACKAGE_OR_ALL=${1:-'.*'}
-PACKAGE_OR_NOTHING=${1}
-mute_pushd $BD
-for function_package_slash_name in */*; do
- local function_package=${function_package_slash_name%%/*}
- local function_name=${function_package_slash_name##*/}
- local function_help_file=${function_package}/.help/${function_name}.helpfile
- if [[ -f $function_help_file ]]; then
-  local function_short_explanation='--> '`head -n 1 $function_help_file`
- else 
-  local function_short_explanation=''
- fi
- echo -e ${function_package}/${function_name}' '${function_short_explanation}
-done
+name_params PACKAGE
+mute_pushd ${BD}/${PACKAGE}
+ls |grep -v README.md
 mute_popd

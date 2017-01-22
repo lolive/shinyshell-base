@@ -1,0 +1,4 @@
+List all the Shinyshell functions. For a given package, or for all packages.
+
+List all the Shinyshell functions. With a short explanation. When given an
+argument, limit that list to the given package.

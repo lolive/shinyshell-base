@@ -2,39 +2,37 @@ This is the "base" package of ShinyShell.
 
 It contains basic functions to manage your other ShinyShell functions and packages.
 
-$ bd  : 
+$ bd  : ""
 
-$ edit_function  : 
+$ edit_function  : "This function edits a ShinyShell function with your $EDITOR. This function accepts: (optionnaly) the package name, plus the function name."
 
-$ edit_readme PACKAGE : 
+$ edit_readme PACKAGE : "Edit the README.md of a given package"
 
-$ ef  : This function edits a ShinyShell function with your $EDITOR. This function accepts: (optionnaly) the package name, plus the function name.
+$ ef  : ""
 
-$ go_to_bd  : 
+$ go_to_bd  : "When given no argument, cd to the Shinyshell directory. When given a package name as argument, cd to the Shinyshell package with the given name."
 
-$ go_to_package PACKAGE : 
+$ html2txt  : "Reads the standard input and extract the text of the HTML input."
 
-$ html2txt  : 
+$ list_aliases  : ""
 
-$ list_aliases  : 
+$ list_functions PACKAGE : "List functions of a package (given as argument)."
 
-$ list_functions  : 
+$ list_functions_with_details  : "List all the Shinyshell functions. With a short explanation. When given an argument, limit that list to the given package."
 
-$ list_functions_of_package PACKAGE : 
+$ list_packages  : "List all the Shinyshell packages."
 
-$ list_packages  : 
+$ lsa  : ""
 
-$ lsa  : 
+$ lsf PACKAGE : ""
 
-$ lsf  : 
+$ markdown  : "Displays an HTML conversion of the given Markdown file."
 
-$ markdown  : 
+$ readme_package PACKAGE : "Displays the README of the package $PACKAGE."
 
-$ readme_package PACKAGE : 
+$ sb  : ""
 
-$ sb  : 
+$ source_bashrc  : "Source your $HOME/.bashrc. It should also run the $BD/.bashrc i.e reload all functions."
 
-$ source_bashrc  : 
-
-$ tcpkill TCP_PORT_TO_FREE : 
+$ tcpkill TCP_PORT_TO_FREE : "Kill the process locking the tcp port $TCP_PORT_TO_FREE."
 

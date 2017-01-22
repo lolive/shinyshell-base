@@ -1,3 +1,3 @@
 mute_pushd $BD
-\ls -d * | cat
+\ls -d * | grep -v README.md
 mute_popd

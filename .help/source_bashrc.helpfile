@@ -1,0 +1,4 @@
+Source your $HOME/.bashrc (and set all your Shinyshell functions)
+
+Source your $HOME/.bashrc. It should also run the $BD/.bashrc i.e reload all
+functions.

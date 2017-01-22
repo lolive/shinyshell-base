@@ -1,0 +1,3 @@
+Extract the text of an HTML content.
+
+Reads the standard input and extract the text of the HTML input.
