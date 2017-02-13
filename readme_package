@@ -10,7 +10,7 @@ else
  echo
 fi
 if [ -n ${PACKAGE} ]; then 
-for i in `list_functions_of_package`; do
+for i in `list_functions`; do
  view_help "$i"
 done
 fi
