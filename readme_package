@@ -9,7 +9,9 @@ else
  echo "This package contains the following functions:"
  echo
 fi
+if [ -n ${PACKAGE} ]; then 
 for i in `list_functions_of_package`; do
  view_help "$i"
 done
+fi
 mute_popd
