@@ -1,4 +1,3 @@
-echo $PACKAGE
 name_params PACKAGE
 mute_pushd ${BD}/${PACKAGE}
 ls |grep -v README.md
