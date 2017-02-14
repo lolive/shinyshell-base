@@ -1,0 +1,1 @@
+tr '[:lower:]' '[:upper:]'|perl -pe 'use MIME::Base32 qw( RFC ); MIME::Base32::decode($_);'

@@ -4,11 +4,15 @@ It contains basic functions to manage your other ShinyShell functions and packag
 
 $ bd  : ""
 
+$ dec32  : ""
+
 $ edit_function  : "This function edits a ShinyShell function with your $EDITOR. This function accepts: (optionnaly) the package name, plus the function name."
 
 $ edit_readme PACKAGE : "Edit the README.md of a given package"
 
 $ ef  : ""
+
+$ enc32  : ""
 
 $ go_to_bd  : "When given no argument, cd to the Shinyshell directory. When given a package name as argument, cd to the Shinyshell package with the given name."
 
