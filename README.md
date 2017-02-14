@@ -18,6 +18,8 @@ $ go_to_bd  : "When given no argument, cd to the Shinyshell directory. When give
 
 $ html2txt  : "Reads the standard input and extract the text of the HTML input."
 
+$ kills  : ""
+
 $ list_aliases  : ""
 
 $ list_functions PACKAGE : "List functions of a package (given as argument)."
