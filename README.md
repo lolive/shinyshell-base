@@ -30,7 +30,7 @@ $ list_packages  : "List all the Shinyshell packages."
 
 $ lsa  : ""
 
-$ lsf PACKAGE : ""
+$ lsf  : ""
 
 $ markdown  : "Displays an HTML conversion of the given Markdown file."
 
