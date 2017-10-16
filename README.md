@@ -1,3 +1,5 @@
+# Package "Shinyshell-base":
+
 
 $ bd  : ""
 
@@ -39,6 +41,8 @@ $ source_bashrc  : "Source your $HOME/.bashrc. It should also run the $BD/.bashr
 
 $ tcpkill TCP_PORT_TO_FREE : "Kill the process locking the tcp port $TCP_PORT_TO_FREE."
 
+
+This package contains the following functions:
 
 
 ## bd  :
